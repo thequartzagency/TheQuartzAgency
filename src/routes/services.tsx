@@ -43,7 +43,7 @@ function ServicesPage() {
       <SiteHeader variant="solid" />
       <PageHero
         eyebrow="OUR SERVICES"
-        title="Recruitment Solutions Designed Around Success."
+        title="Recruitment Solutions Designed Around Success"
         intro="Connecting organisations with exceptional professionals through strategic talent acquisition."
       />
 
@@ -51,7 +51,7 @@ function ServicesPage() {
         <div className="container">
           <div className="section-heading">
             <span className="section-subtitle">OUR EXPERTISE</span>
-            <h2>Premium Recruitment Solutions For Modern Organisations.</h2>
+            <h2>Premium Recruitment Solutions For Modern Organisations</h2>
             <p className="section-description">
               Our tailored approach combines market insight, industry expertise and a
               deep understanding of people to deliver exceptional hiring outcomes.
@@ -79,7 +79,7 @@ function ServicesPage() {
         <div className="container">
           <div className="feature-content">
             <span className="section-subtitle">EXECUTIVE SEARCH</span>
-            <h2>Finding Leaders Who Shape The Future.</h2>
+            <h2>Finding Leaders Who Shape The Future</h2>
             <p>Our executive search process identifies high-performing professionals who possess the experience, leadership ability and values required to drive organisational success.</p>
             <p>Through targeted research, confidential engagement and strategic assessment, we connect businesses with exceptional leadership talent.</p>
             <Link to="/contact" className="btn-primary">Discuss Your Recruitment Needs</Link>
@@ -91,7 +91,7 @@ function ServicesPage() {
         <div className="container">
           <div className="section-heading">
             <span className="section-subtitle">OUR APPROACH</span>
-            <h2>A Strategic Recruitment Process Built Around Results.</h2>
+            <h2>A Strategic Recruitment Process Built Around Results</h2>
             <p className="section-description">Every search is carefully managed through a structured process designed to deliver the right talent efficiently and professionally.</p>
           </div>
           <div className="process-timeline four">
@@ -110,7 +110,7 @@ function ServicesPage() {
         <div className="container">
           <div className="section-heading">
             <span className="section-subtitle">WHY PARTNER WITH US</span>
-            <h2>More Than Recruitment. A Strategic Talent Partnership.</h2>
+            <h2>More Than Recruitment. A Strategic Talent Partnership</h2>
             <p className="section-description">We combine professional expertise, market knowledge and personal relationships to deliver recruitment solutions that create lasting value.</p>
           </div>
           <div className="why-grid">
