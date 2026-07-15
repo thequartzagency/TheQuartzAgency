@@ -31,7 +31,7 @@ function AboutPage() {
       <SiteHeader variant="solid" />
       <PageHero
         eyebrow="ABOUT THE QUARTZ AGENCY"
-        title={<>Building Connections - Creating Careers -<br />Driving Success</>}
+        title={<>Building Connections<br />Creating Careers<br />Driving Success</>}
         intro="A premium recruitment partner connecting exceptional professionals with organisations that value excellence."
       />
 
