@@ -32,7 +32,7 @@ function ContactPage() {
           <div className="contact-grid">
             <div className="contact-info">
               <span className="section-subtitle">GET IN TOUCH</span>
-              <h2>Start A Conversation.</h2>
+              <h2>Start A Conversation</h2>
               <p>Our recruitment consultants are available to discuss executive search, recruitment solutions and career opportunities.</p>
 
               <div className="contact-item">
