@@ -93,9 +93,10 @@
   top: 0;
   left: 0;
   right: 0;
-  inset: 0 0 auto 0;
+  padding-top: 20px;
   z-index: 1000;
 }
+
 .navbar {
   height: 110px;
   display: flex;
@@ -103,21 +104,22 @@
   justify-content: space-between;
   gap: 32px;
 }
+
 .logo {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  height: auto
-  margin: 20;
-  padding: 10;
+  flex-shrink: 0;
 }
+
 .logo img {
-  height: 300px;
+  height: 78px;
   width: auto;
   display: block;
 }
+
 .nav-menu {
   display: flex;
-  gap: 34px;
+  gap: 38px;
   align-items: center;
 }
 .nav-menu a {
@@ -134,8 +136,8 @@
 .btn-nav {
   background: var(--gold);
   color: #fff !important;
-  padding: 13px 26px;
-  font-size: 12px;
+  padding: 15px 30px;
+  font-size: 13px;
   letter-spacing: 1.5px;
   font-weight: 600;
   transition: var(--transition);
@@ -178,7 +180,7 @@
   grid-template-columns: 1fr 0.9fr;
   gap: 60px;
   align-items: center;
-  padding: 140px 0 100px;
+  padding: 170px 0 100px;
 }
 .hero-content {
   color: #fff;
