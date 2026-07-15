@@ -23,7 +23,7 @@ function ContactPage() {
       <SiteHeader variant="solid" />
       <PageHero
         eyebrow="CONTACT THE QUARTZ AGENCY"
-        title="Let's Build Something Exceptional Together."
+        title="Let's Build Something Exceptional Together"
         intro="Whether you are seeking outstanding talent or your next career opportunity, our team is ready to assist."
       />
 
@@ -87,7 +87,7 @@ function ContactPage() {
           <div className="cta-wrapper cta-single">
             <div className="cta-content">
               <span className="section-subtitle">PARTNER WITH QUARTZ</span>
-              <h2>Exceptional Talent Starts With A Conversation.</h2>
+              <h2>Exceptional Talent Starts With A Conversation</h2>
               <p>Whether you are building your leadership team or advancing your career, The Quartz Agency is ready to help you achieve your goals.</p>
               <div className="cta-buttons">
                 <Link to="/services" className="btn-primary">Explore Services</Link>
