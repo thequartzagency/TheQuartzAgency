@@ -106,10 +106,10 @@
 .logo {
   display: inline-flex;
   align-items: center;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 .logo {
-  height: 58px;
+  height: 45px;
   width: auto;
   display: block;
   filter: brightness(0) invert(1);
