@@ -43,7 +43,7 @@ function CandidatesPage() {
       <SiteHeader variant="solid" />
       <PageHero
         eyebrow="FOR CANDIDATES"
-        title="Your Next Career Opportunity Starts Here."
+        title="Your Next Career Opportunity Starts Here"
         intro="We connect ambitious professionals with organisations looking for exceptional talent."
       />
 
@@ -51,7 +51,7 @@ function CandidatesPage() {
         <div className="container">
           <div className="section-heading">
             <span className="section-subtitle">YOUR CAREER PARTNER</span>
-            <h2>More Than A Job Search.<br />A Career Journey.</h2>
+            <h2>More Than A Job Search<br />A Career Journey</h2>
             <p className="section-description">
               At The Quartz Agency, we take the time to understand your experience,
               goals and ambitions to connect you with opportunities that align with
@@ -65,7 +65,7 @@ function CandidatesPage() {
         <div className="container">
           <div className="section-heading">
             <span className="section-subtitle">WHY WORK WITH US</span>
-            <h2>Supporting Your Professional Growth.</h2>
+            <h2>Supporting Your Professional Growth</h2>
           </div>
           <div className="benefit-grid">
             {benefits.map((b) => (
@@ -83,7 +83,7 @@ function CandidatesPage() {
         <div className="container">
           <div className="partner-content-single">
             <span className="section-subtitle">JOIN OUR NETWORK</span>
-            <h2>Be Considered For Future Opportunities.</h2>
+            <h2>Be Considered For Future Opportunities</h2>
             <p>Submit your details and become part of The Quartz Agency candidate network. Our consultants will connect you with suitable opportunities aligned with your experience.</p>
             <ul className="check-list">
               {bullets.map((b) => (
@@ -99,7 +99,7 @@ function CandidatesPage() {
         <div className="container">
           <div className="section-heading">
             <span className="section-subtitle">HOW IT WORKS</span>
-            <h2>A Simple Path To Your Next Opportunity.</h2>
+            <h2>A Simple Path To Your Next Opportunity</h2>
           </div>
           <div className="process-timeline four">
             {steps.map((s) => (
@@ -117,7 +117,7 @@ function CandidatesPage() {
         <div className="container">
           <div className="feature-content">
             <span className="section-subtitle">CAREER INSIGHTS</span>
-            <h2>Helping Professionals Make Better Career Decisions.</h2>
+            <h2>Helping Professionals Make Better Career Decisions</h2>
             <p>Our consultants provide market insight, interview preparation and guidance to help professionals confidently navigate their careers.</p>
             <Link to="/contact" className="btn-primary">Speak With A Consultant</Link>
           </div>
