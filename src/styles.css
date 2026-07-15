@@ -106,14 +106,13 @@
 .logo {
   display: inline-flex;
   align-items: center;
-  padding-top: 5px;
 }
 .logo {
   height: 50px;
   width: auto;
   display: block;
   filter: brightness(0) invert(1);
-  margin-top: 3px;
+  transform: translateY(2px);
 }
 .nav-menu {
   display: flex;
