@@ -97,7 +97,7 @@
   z-index: 1000;
 }
 .navbar {
-  height: 100px;
+  height: 110px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -111,10 +111,9 @@
   padding: 0;
 }
 .logo img {
-  height: 50px;
+  height: 80px;
   width: auto;
   display: block;
-  filter: brightness(0) invert(1);
 }
 .nav-menu {
   display: flex;
