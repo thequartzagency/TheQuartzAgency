@@ -61,8 +61,8 @@ function Index() {
           <div className="hero-content">
             <span className="hero-tag">EXECUTIVE RECRUITMENT & STAFFING SOLUTIONS</span>
             <h1>
-              Exceptional Talent.
-              <span>Extraordinary Impact.</span>
+              Exceptional Talent
+              <span>Extraordinary Impact</span>
             </h1>
             <p>
               Connecting visionary organisations with exceptional leaders, skilled
@@ -84,7 +84,7 @@ function Index() {
         <div className="container">
           <div className="section-heading">
             <span className="section-subtitle">OUR RECRUITMENT SERVICES</span>
-            <h2>Tailored Recruitment Solutions.<br /><span>Built Around Your Business.</span></h2>
+            <h2>Tailored Recruitment Solutions<br /><span>Built Around Your Business</span></h2>
             <p className="section-description">
               At The Quartz Agency, we understand that every organisation has unique
               hiring needs. We provide personalised recruitment solutions that connect
@@ -112,7 +112,7 @@ function Index() {
         <div className="container">
           <div className="section-heading">
             <span className="section-subtitle">THE QUARTZ STANDARD</span>
-            <h2>Our Values Shape<br /><span>Every Partnership.</span></h2>
+            <h2>Our Values Shape<br /><span>Every Partnership</span></h2>
             <p className="section-description">
               Everything we do is built on trust, integrity and a commitment to
               delivering exceptional recruitment experiences.
