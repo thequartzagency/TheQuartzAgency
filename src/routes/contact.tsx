@@ -53,31 +53,75 @@ function ContactPage() {
                 <i className="fa-solid fa-phone" />
                 <div>
                   <h4>Phone</h4>
-                  <p>+27 XX XXX XXXX</p>
+                  <p>+27 76 850 0001</p>
                 </div>
               </div>
             </div>
 
             <div className="contact-form">
-              <form onSubmit={(e) => e.preventDefault()}>
-                <div className="form-row">
-                  <input type="text" placeholder="Full Name" required />
-                  <input type="email" placeholder="Email Address" required />
-                </div>
-                <div className="form-row">
-                  <input type="text" placeholder="Company" />
-                  <input type="tel" placeholder="Phone Number" />
-                </div>
-                <select defaultValue="">
-                  <option value="" disabled>I am interested in...</option>
-                  <option>Hiring Talent</option>
-                  <option>Finding A Job</option>
-                  <option>Executive Search</option>
-                </select>
-                <textarea rows={6} placeholder="Your Message" />
-                <button type="submit" className="btn-primary">Send Message</button>
-              </form>
-            </div>
+<form
+  action="https://formsubmit.co/info@thequartzagency.co.za"
+  method="POST"
+>
+  <input type="hidden" name="_subject" value="New Website Enquiry - The Quartz Agency" />
+  <input type="hidden" name="_template" value="table" />
+  <input type="hidden" name="_captcha" value="false" />
+  <input
+    type="hidden"
+    name="_autoresponse"
+    value="Thank you for contacting The Quartz Agency. We have received your enquiry and will be in touch shortly."
+  />
+
+  <div className="form-row">
+    <input
+      type="text"
+      name="Full Name"
+      placeholder="Full Name"
+      required
+    />
+    <input
+      type="email"
+      name="Email Address"
+      placeholder="Email Address"
+      required
+    />
+  </div>
+
+  <div className="form-row">
+    <input
+      type="text"
+      name="Company"
+      placeholder="Company"
+    />
+    <input
+      type="tel"
+      name="Phone Number"
+      placeholder="Phone Number"
+    />
+  </div>
+
+  <select
+    name="Enquiry Type"
+    defaultValue=""
+    required
+  >
+    <option value="" disabled>I am interested in...</option>
+    <option>Hiring Talent</option>
+    <option>Finding A Job</option>
+    <option>Executive Search</option>
+  </select>
+
+  <textarea
+    name="Message"
+    rows={6}
+    placeholder="Your Message"
+    required
+  />
+
+  <button type="submit" className="btn-primary">
+    Send Message
+  </button>
+</form>            </div>
           </div>
         </div>
       </section>
