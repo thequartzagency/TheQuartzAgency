@@ -90,6 +90,9 @@
 /* ============ HEADER ============ */
 .header {
   position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
   inset: 0 0 auto 0;
   z-index: 1000;
 }
@@ -105,7 +108,7 @@
   align-items: center;
 }
 .logo {
-  height: 50px;
+  height: 58px;
   width: auto;
   filter: brightness(0) invert(1);
 }
@@ -759,7 +762,7 @@ section {
 
 /* ============ SOLID HEADER (inner pages) ============ */
 .header-solid {
-  position: sticky;
+  position: relative;
   background: var(--navy);
   box-shadow: 0 4px 20px rgba(8, 28, 45, 0.15);
 }
