@@ -39,7 +39,7 @@ function IndustriesPage() {
       <SiteHeader variant="solid" />
       <PageHero
         eyebrow="INDUSTRIES WE SERVE"
-        title="Specialist Recruitment Across Key Business Sectors."
+        title="Specialist Recruitment Across Key Business Sectors"
         intro="Connecting organisations with professionals who understand their industry's unique challenges and opportunities."
       />
 
@@ -47,7 +47,7 @@ function IndustriesPage() {
         <div className="container">
           <div className="section-heading">
             <span className="section-subtitle">OUR INDUSTRY EXPERTISE</span>
-            <h2>Deep Knowledge.<br />Exceptional Talent.<br />Meaningful Results.</h2>
+            <h2>Deep Knowledge<br />Exceptional Talent<br />Meaningful Results</h2>
             <p className="section-description">
               Our consultants understand the skills, experience and leadership
               qualities required across specialised industries.
@@ -75,7 +75,7 @@ function IndustriesPage() {
           <div className="advantage-grid">
             <div className="advantage-content">
               <span className="section-subtitle">OUR APPROACH</span>
-              <h2>Industry Knowledge Creates Better Recruitment Outcomes.</h2>
+              <h2>Industry Knowledge Creates Better Recruitment Outcomes</h2>
               <p>Successful recruitment requires more than finding available candidates. It requires understanding markets, skills, business challenges and organisational culture.</p>
               <p>Our consultants build strong networks within specialist industries, allowing us to identify professionals who bring genuine value to our clients.</p>
               <Link to="/contact" className="btn-primary">Partner With Us</Link>
@@ -92,7 +92,7 @@ function IndustriesPage() {
           <div className="cta-wrapper cta-single">
             <div className="cta-content">
               <span className="section-subtitle">FIND THE RIGHT PEOPLE</span>
-              <h2>Exceptional Talent For Every Industry.</h2>
+              <h2>Exceptional Talent For Every Industry</h2>
               <p>Speak with The Quartz Agency about your recruitment requirements and discover a smarter approach to talent.</p>
               <div className="cta-buttons">
                 <Link to="/contact" className="btn-primary">Contact Us</Link>
