@@ -19,12 +19,12 @@ export const Route = createFileRoute("/industries")({
 });
 
 const industries = [
-  { icon: "fa-building-columns", title: "Financial Services", text: "Banking, investment, accounting and financial leadership roles." },
+  { icon: "fa-building-columns", title: "Financial Services", text: "Banking, investments, accounting and financial leadership roles." },
   { icon: "fa-shield-halved", title: "Insurance", text: "Specialist professionals for insurance and risk environments." },
   { icon: "fa-gears", title: "Engineering", text: "Technical experts and engineering professionals." },
   { icon: "fa-hard-hat", title: "Construction", text: "Connecting businesses with skilled construction talent." },
   { icon: "fa-industry", title: "Manufacturing", text: "Operational and leadership recruitment solutions." },
-  { icon: "fa-truck-fast", title: "Logistics", text: "Supply chain, transport and operational specialists." },
+  { icon: "fa-truck-fast", title: "Logistics", text: "Supply chain,logistics, transport and operational specialists." },
   { icon: "fa-laptop-code", title: "Information Technology", text: "Digital specialists, developers, analysts and technology leaders." },
   { icon: "fa-heart-pulse", title: "Healthcare", text: "Healthcare professionals and specialists supporting critical services." },
   { icon: "fa-cart-shopping", title: "Retail & FMCG", text: "Commercial, operational and leadership recruitment solutions." },
@@ -76,7 +76,7 @@ function IndustriesPage() {
             <div className="advantage-content">
               <span className="section-subtitle">OUR APPROACH</span>
               <h2>Industry Knowledge Creates Better Recruitment Outcomes</h2>
-              <p>Successful recruitment requires more than finding available candidates. It requires understanding markets, skills, business challenges and organisational culture.</p>
+              <p>Successful recruitment requires more than finding available candidates. It requires a deep understanding markets, skills, business challenges and organisational culture.</p>
               <p>Our consultants build strong networks within specialist industries, allowing us to identify professionals who bring genuine value to our clients.</p>
               <Link to="/contact" className="btn-primary">Partner With Us</Link>
             </div>
