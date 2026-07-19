@@ -33,14 +33,14 @@ const steps = [
   { n: "01", title: "Consultation", text: "Understanding your business, culture and specific hiring requirements." },
   { n: "02", title: "Talent Search", text: "Using targeted sourcing methods to identify high-quality candidates." },
   { n: "03", title: "Candidate Selection", text: "Presenting professionals who match your technical and cultural needs." },
-  { n: "04", title: "Successful Placement", text: "Supporting your organisation throughout the hiring journey." },
+  { n: "04", title: "Successful Placement", text: "Supporting your organisation throughout the hiring journey and beyond." },
 ];
 
 const bullets = [
-  "Confidential executive search",
-  "Specialist industry knowledge",
-  "Quality-focused candidate selection",
-  "Long-term partnership approach",
+  "Confidential Executive Search",
+  "Specialist Industry Knowledge",
+  "Quality-Focused Candidate Selection",
+  "Long-Term Partnership Approach",
 ];
 
 function EmployersPage() {
